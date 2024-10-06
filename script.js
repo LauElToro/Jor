@@ -39,4 +39,4 @@ function updatePhrase() {
     index = (index + 1) % phrases.length;  // Bucle infinito
 }
 
-setInterval(updatePhrase, 2000);  // Cambia la frase cada 5 segundos
+setInterval(updatePhrase, 5000);  // Cambia la frase cada 5 segundos
